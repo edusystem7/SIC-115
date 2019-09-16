@@ -65,10 +65,10 @@
 												</td>
 											</tr>
 												<td align="left">
-													Mu&ntilde;oz Noubleau, Wendy Egriselda Lourdes
+												Diego  de Jesús  Ochoa  García 
 												</td>
 												<td align="left">
-													MN07009
+													OG16003
 												</td>
 											</tr>
 												<td align="left">
@@ -78,12 +78,7 @@
 													SC08010
 												</td>
 											</tr>
-												<td align="left">
-													Palacios Perez, Blanca Veronica
-												</td>
-												<td align="left">
-													PP08016
-												</td>
+										
 											</tr>
 											</tbody>
 									   </table>
