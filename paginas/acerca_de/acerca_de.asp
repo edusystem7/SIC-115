@@ -58,12 +58,21 @@
 											<tbody>
 											<tr>
 												<td align="left">
-													Medina Fernandez, Alejandro Roberto
+													Carlos Fabricio Campos Pérez
 												</td>
 												<td align="left">
-													MF08009
+													CP16012
 												</td>
 											</tr>
+																						<tr>
+												<td align="left">
+											Nelson Arnoldo González Serrano
+												</td>
+												<td align="left">
+													GS02009
+												</td>
+											</tr>
+											<tr>
 												<td align="left">
 												Diego  de Jesús  Ochoa  García 
 												</td>
@@ -71,11 +80,12 @@
 													OG16003
 												</td>
 											</tr>
+											<tr>
 												<td align="left">
-													Suncin Cruz, Jaime Leonardo
+													Kilmer Fabricio maravilla López
 												</td>
 												<td align="left">
-													SC08010
+													ML16006
 												</td>
 											</tr>
 										
