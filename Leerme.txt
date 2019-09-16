@@ -1,0 +1,20 @@
+Para configurar el servidor web:
+1.	Seleccionar el icono de quickweb, dar doble clic derecho sobre él y abrirlo:
+2.	Presionar Continúe para entrar al área de configuración de Quick’n Easy:
+3.	Seleccionamos Configure Settings, En la pestaña general se configura las direcciones donde está ubicado el sistema: (Lugar donde está ubicada la carpeta “Sistema Contable” con los archivos del sistema)
+4.	En Web Pages, Buscar la carpeta donde está ubicado el sistema contable, de igual forma en Default Page seleccionar la página inicial del sistema. (“index.asp”)
+5.	Finalmente iniciar el servidor presionando Star.
+
+Para configurar el servidor de la base de datos
+1.	Ahora configurar el DNS del Sistema, para hacerlo abrir el Menú Inicio, Panel De Control y hacer doble clic sobre “Herramientas Administrativas”.
+2.	Hacer doble clic sobre “Orígenes de Datos (ODBC)” y abrir la pestaña “DNS del Sistema”. 
+3.	Luego seleccionar Orígenes de datos ODBC y seleccionar la pestaña DSN de Sistema.
+4.	Hacer clic en “Agregar” y en la nueva ventana seleccionar de la lista: Microsoft Access Driver (*.mdb) y presionar Finalizar.
+5.	Escribir un nombre para el origen de datos (en nuestro caso “Datos”) y hacer clic en “Seleccionar”. 
+6.	En la nueva ventana, en el recuadro central derecho dirigirse al  directorio del sistema contable y en la carpeta llamada “Sistema Contable\base de datos” seleccionar la base de datos llamada “Datos.mdb” y hacer clic en “Aceptar”.
+
+Para ejecutar el Sistema:
+1.	Abrir el navegador de Internet y escribir en la barra de direcciones: http://localhost/
+2.	Al ingresar a local host se muestra la página de inicio
+3.	Dar clic en “Clik Aquí Para Entrar”.
+4.	Luego aparecerá la página “Acceso al sistema” Ingresar Usuario y su respectiva Contraseña (admin, admin) esto es posible modificarlo al ingresar al sistema. 

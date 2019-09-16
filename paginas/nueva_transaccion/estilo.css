@@ -1,0 +1,215 @@
+.oculto{
+ visibility:hidden;
+}
+
+#capa1
+{
+  position:absolute;
+}
+
+#capa2
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa3
+{
+  position:absolute;
+}
+
+#capa4
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa5
+{
+  position:absolute;
+}
+
+#capa6
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa7
+{
+  position:absolute;
+}
+
+#capa8
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa9
+{
+  position:absolute;
+}
+
+#capa10
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa11
+{
+  position:absolute;
+}
+
+#capa12
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa13
+{
+  position:absolute;
+}
+
+#capa14
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa15
+{
+  position:absolute;
+}
+
+#capa16
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa17
+{
+  position:absolute;
+}
+
+#capa18
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa19
+{
+  position:absolute;
+}
+
+#capa20
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa21
+{
+  position:absolute;
+}
+
+#capa22
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa23
+{
+  position:absolute;
+}
+
+#capa24
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa25
+{
+  position:absolute;
+}
+
+#capa26
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa27
+{
+  position:absolute;
+}
+
+#capa28
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa29
+{
+  position:absolute;
+}
+
+#capa30
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+#capa31
+{
+  position:absolute;
+}
+
+#capa32
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+select{
+	width: 300px;
+}

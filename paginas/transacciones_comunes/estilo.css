@@ -1,0 +1,218 @@
+#pestanas{
+	float:left;
+	width:100%;
+	line-height:normal;
+	font-size: 16px;
+	font-weight: bold;
+	/*background: transparent url(fondo-pestanas.gif) repeat-x bottom;*/
+}
+#pestanas ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#pestanas li{
+	float:left;
+	margin:0 0 0 3px;
+	padding:0;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	background: #F4F4F4;
+	border-radius: 10px 10px 0px 0px;
+	/*background:url("p-der.gif") no-repeat right top;*/
+}
+#pestanas a{
+	display:block;
+	padding:3px 10px 3px 10px;
+	color: #000;
+	text-decoration: none;
+	padding-bottom: 2px;
+	/*background:url("p-izq.gif") no-repeat left top;*/
+}
+#pestanas .activa a{
+	/*background-image:url("p-izq-activo.gif");*/
+	padding-bottom:3px;
+}
+#pestanas .activa{
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-top: 2px solid #000;
+	background: #99DBFF;
+	/*background-image:url("p-der-activo.gif");*/
+}
+#contenedor_pestanas{
+	background-color: #99DBFF;
+	padding: 10px;
+	clear: both;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-radius: 0px 10px 10px 10px;
+}
+#pestanas_compras{
+	float:left;
+	width:100%;
+	line-height:normal;
+	font-size: 16px;
+	font-weight: bold;
+	/*background: transparent url(fondo-pestanas_compras.gif) repeat-x bottom;*/
+}
+#pestanas_compras ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#pestanas_compras li{
+	float:left;
+	margin:0 0 0 3px;
+	padding:0;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	background: #F4F4F4;
+	border-radius: 10px 10px 0px 0px;
+	/*background:url("p-der.gif") no-repeat right top;*/
+}
+#pestanas_compras a{
+	display:block;
+	padding:3px 10px 3px 10px;
+	color: #000;
+	text-decoration: none;
+	padding-bottom: 2px;
+	/*background:url("p-izq.gif") no-repeat left top;*/
+}
+#pestanas_compras .activa a{
+	/*background-image:url("p-izq-activo.gif");*/
+	padding-bottom:3px;
+}
+#pestanas_compras .activa{
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-top: 2px solid #000;
+	background: #99DBFF;
+	/*background-image:url("p-der-activo.gif");*/
+}
+#contenedor_pestanas_compras{
+	background-color: #99DBFF;
+	padding: 10px;
+	clear: both;
+	border-top: 2px solid #000;
+	/*
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	*/
+}
+#pestanas_ventas{
+	float:left;
+	width:100%;
+	line-height:normal;
+	font-size: 16px;
+	font-weight: bold;
+	/*background: transparent url(fondo-pestanas_ventas.gif) repeat-x bottom;*/
+}
+#pestanas_ventas ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#pestanas_ventas li{
+	float:left;
+	margin:0 0 0 3px;
+	padding:0;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	background: #F4F4F4;
+	border-radius: 10px 10px 0px 0px;
+	/*background:url("p-der.gif") no-repeat right top;*/
+}
+#pestanas_ventas a{
+	display:block;
+	padding:3px 10px 3px 10px;
+	color: #000;
+	text-decoration: none;
+	padding-bottom: 2px;
+	/*background:url("p-izq.gif") no-repeat left top;*/
+}
+#pestanas_ventas .activa a{
+	/*background-image:url("p-izq-activo.gif");*/
+	padding-bottom:3px;
+}
+#pestanas_ventas .activa{
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-top: 2px solid #000;
+	background: #99DBFF;
+	/*background-image:url("p-der-activo.gif");*/
+}
+#contenedor_pestanas_ventas{
+	background-color: #99DBFF;
+	padding: 10px;
+	clear: both;
+	border-top: 2px solid #000;
+	/*
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	*/
+}
+#pestanas_pagos{
+	float:left;
+	width:100%;
+	line-height:normal;
+	font-size: 16px;
+	font-weight: bold;
+	/*background: transparent url(fondo-pestanas_pagos.gif) repeat-x bottom;*/
+}
+#pestanas_pagos ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#pestanas_pagos li{
+	float:left;
+	margin:0 0 0 3px;
+	padding:0;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	background: #F4F4F4;
+	border-radius: 10px 10px 0px 0px;
+	/*background:url("p-der.gif") no-repeat right top;*/
+}
+#pestanas_pagos a{
+	display:block;
+	padding:3px 10px 3px 10px;
+	color: #000;
+	text-decoration: none;
+	padding-bottom: 2px;
+	/*background:url("p-izq.gif") no-repeat left top;*/
+}
+#pestanas_pagos .activa a{
+	/*background-image:url("p-izq-activo.gif");*/
+	padding-bottom:3px;
+}
+#pestanas_pagos .activa{
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-top: 2px solid #000;
+	background: #99DBFF;
+	/*background-image:url("p-der-activo.gif");*/
+}
+#contenedor_pestanas_pagos{
+	background-color: #99DBFF;
+	padding: 10px;
+	clear: both;
+	border-top: 2px solid #000;
+	/*
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	*/
+}
+.nover{
+	display: none;
+}
