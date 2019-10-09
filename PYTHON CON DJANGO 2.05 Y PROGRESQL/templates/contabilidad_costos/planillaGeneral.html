@@ -1,0 +1,47 @@
+{% extends 'base/base.html'%}
+{% block title %} Empleados {% endblock %}
+{% block portada %}<br><br><br>{% endblock %}
+{% block content %}
+
+<br>
+<a href="{% url 'empleado_general' %}" ><b>PLANILLA GENERAL</b></a><br><br><br><br>
+{% if object_list %}	
+	<table id="tbPlanillas" class="table">
+		<thead id="thead-dark" class="thead-dark">
+			<tr>
+				<th scope="col">N°</th>
+				<th scope="col">NOMBRE EMPLEADO</th>
+				<th scope="col">CARGO</th>
+				<th scope="col">SALARIO BASE</th>
+				<th scope="col">ISSS</th>
+				<th scope="col">AFP</th>
+				<th scope="col">INSAFORP</th>
+				<th scope="col">VACACIONES</th>
+				<th scope="col">AGUINALDO</th>
+				<th scope="col">TOTAL DEVENGADO</th>
+				<th scope="col">FIRMA</th>
+			</tr>
+		</thead>
+		<tbody>
+		{% for planilla in object_list %}	
+			<tr id="{{planilla.id}}">
+				<td>{{planilla.id}}</td>
+				<td><b>{{planilla.empleado_planilla.nombre_empleado}}</b></td>
+				<td><b>{{planilla.empleado_planilla.cargo_empleado}}</b></td>
+				<td><b>${{planilla.empleado_planilla.cargo_empleado.sueldo_base}}0</b></td>
+				<td><b>${{planilla.isss_planilla}}0</b></td>
+				<td><b>${{planilla.afp_planilla}}0</b></td>
+				<td><b>${{planilla.insaforp}}0</b></td>
+				<td><b>${{planilla.vacacion_planilla}}0</b></td>
+				<td><b>${{planilla.aguinaldo_planilla}}0</b></td>
+				<td><b>${{planilla.salario_total}}0</b></td>
+				<td><b> <input type="checkbox" name="firma" ></b></td>
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+{% else %}
+	<b>No hay ninguna Planilla de empleado</b>
+{% endif %}
+
+{% endblock %}

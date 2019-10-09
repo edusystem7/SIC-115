@@ -1,0 +1,55 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+{% if cuentas %}
+
+{% if user.is_staff == True %}
+<div class="col-md-3 btnNueva">
+  <a href="{% url 'contabilidad_general:crear' %}" class="btn btn-secondary">+ Nueva</a>
+</div>
+{% endif %}
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Código de la cuenta</th>
+      <th scope="col">Nombre de la cuenta</th>
+      <th scope="col">Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{% for cuenta in cuentas %}
+    <tr class="table-ligth">
+      <th scope="row">{{cuenta.codigo_cuenta}}</th>
+      <td>{{cuenta.nombre_cuenta}}</td>
+      <td>
+        
+      	<div class="col-md-11">
+            <div class="row">
+              {% if user.is_staff == True %}
+              <div class="col-md-4">
+                  <a href="{% url 'contabilidad_general:mostrar-hijas' cuenta.id %}" class="btn btn-block btn-info font-weight-bold">Cuentas hija</a>
+              </div>  
+              <div class="col-md-3">
+                  <a href="{% url 'contabilidad_general:cuenta-editar' cuenta.id %}" class="btn btn-block btn-success font-weight-bold">Editar</a>
+              </div>
+              <div class="col-md-5">
+                  <a href="{% url 'contabilidad_general:crear-hija' cuenta.id %}" class="btn btn-block btn-primary font-weight-bold">Agregar cuenta hija</a>
+              </div>
+              {% else %}
+              <div class="col-md-10">
+                  <a href="{% url 'contabilidad_general:mostrar-hijas' cuenta.id %}" class="btn btn-block btn-info font-weight-bold">Cuentas hija</a>
+              </div>  
+              {% endif %}
+            </div>
+        </div>
+        
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  {% else %}
+  <h2 class="text-center">No hay cuentas por mostrar</h2>
+  {% endif %}
+</table> 
+{% endblock %}
