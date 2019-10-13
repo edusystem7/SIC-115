@@ -83,9 +83,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'contables_db',
         'USER': 'postgres',
-        'PASSWORD': 'administrador',
+        'PASSWORD': 'admin',  #administrador
         'HOST': 'localhost',
-        'PORT': 5432,
+        'PORT': 5432,  
     }
 }
 
